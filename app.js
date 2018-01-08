@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.type').each(function () {
+    $('.typo').each(function () {
         $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
     });
 
@@ -7,7 +7,7 @@ $(document).ready(function () {
             loop: false
         })
         .add({
-            targets: '.type',
+            targets: '.typo',
             opacity: [0, 1],
             easing: "easeInOutQuad",
             duration: 4000
