@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-a",
+  "version": "1.0.0",
+  "description": "portfolio for development",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grkmkc/portfolio.git"
+  },
+  "author": "gorkem koc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grkmkc/portfolio/issues"
+  },
+  "homepage": "https://github.com/grkmkc/portfolio#readme"
+}
