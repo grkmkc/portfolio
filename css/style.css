@@ -25,7 +25,7 @@ body, html{
   margin-left: 2em;
 }
 
-.videop, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -34,8 +34,12 @@ body, html{
   background-attachment:fixed;
 }
 .mar{
-   margin-top: -8px;
+  
    display: block;
+}
+.pimg1{
+  background-image: url('../img/2.jpg');
+  min-height: 100%;
 }
 .pimg2{
   background-image:url('../img/40.jpg');
@@ -95,7 +99,7 @@ body, html{
   float: left;
   text-align: left;
   width: 90%;
-  
+  font-family: 'Times New Roman', Times, serif;
   background-color:#272933c5;
 }
 .flt2{
@@ -104,7 +108,7 @@ body, html{
   float: left;
   text-align: left;
   width: 90%;
-  
+  font-family: 'Times New Roman', Times, serif;
   background-color:#272933c5;
 }
 
@@ -113,8 +117,8 @@ body, html{
   display: block;
   float: right;
   text-align: left;
-  width: 100%;
-  
+  width: 90%;
+  font-family: 'Times New Roman',Times, serif;
   background-color:#272933c5;
 }
 .foto2{
@@ -123,9 +127,11 @@ body, html{
    float: right;
    text-align: left;
    width: 90%;
+   font-family: 'Times New Roman', Times, serif;
   background-color: #272933c5;
 }
 .insta{
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.2em;
   color: rgb(76, 107, 153)!important;
 }
@@ -160,7 +166,7 @@ hr{
 }
 .container{
   float: none;  
-  margin-left: 30%;
+  margin-left: 20%;
 }
 .footer{
   width: 100%;
@@ -212,11 +218,11 @@ hr{
     font-size: 0.9em;  
   }  
 }
-  @media(max-width:505px) {
+  /*@media(max-width:505px) {
     .leonardo{
       display: none;
     }
-  }
+  }*/
 @media only screen and (min-width:320px) {
   .first,
   .section,
@@ -235,7 +241,7 @@ hr{
     letter-spacing: 0.1rem;
   }
   .typo {
-    margin-top: 4%;
+    margin-top: 20%;
     margin-bottom: 5%;
   }
   .one {
@@ -264,6 +270,10 @@ hr{
     
     border: none;
   }
+ .foto2 {
+    float: none;
+    border: none;
+ }
   .sec, .sek {
     float: none;
     margin-left: 2em;
