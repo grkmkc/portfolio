@@ -95,7 +95,7 @@ body, html{
   float: left;
   text-align: left;
   width: 90%;
-  font-family: 'Times New Roman', Times, serif;
+  
   background-color:#272933c5;
 }
 .flt2{
@@ -104,7 +104,7 @@ body, html{
   float: left;
   text-align: left;
   width: 90%;
-  font-family: 'Times New Roman', Times, serif;
+  
   background-color:#272933c5;
 }
 
@@ -113,8 +113,8 @@ body, html{
   display: block;
   float: right;
   text-align: left;
-  width: 90%;
-  font-family: 'Times New Roman',Times, serif;
+  width: 100%;
+  
   background-color:#272933c5;
 }
 .foto2{
@@ -123,11 +123,9 @@ body, html{
    float: right;
    text-align: left;
    width: 90%;
-   font-family: 'Times New Roman', Times, serif;
   background-color: #272933c5;
 }
 .insta{
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1.2em;
   color: rgb(76, 107, 153)!important;
 }
@@ -266,10 +264,6 @@ hr{
     
     border: none;
   }
- .foto2 {
-    float: none;
-    border: none;
- }
   .sec, .sek {
     float: none;
     margin-left: 2em;
